@@ -103,6 +103,7 @@ Delivery=STbf['Delivery']
 #st.write(FG0_STOCK)
 
 
+
 selected_ST_Type = st.sidebar.multiselect('Select Stock Type',['BF_STOCK','BM_STOCK','FG0_STOCK','FG1_STOCK','Delivery'])
 
 selected_Part = st.sidebar.multiselect('Select PartNo', ['1632','1732','2532','2633','9231','9330','1231','1530','1630','2731','2831','4333','4433','5130','5230','5330','2001','2031','2902','3102','5402',
