@@ -1,13 +1,14 @@
 import streamlit as st
 import pandas as pd
-#from sklearn import datasets
-#from sklearn.ensemble import RandomForestClassifier
 import numpy as np
 import matplotlib.pyplot as plt
-plt.style.use('seaborn')
-import math
-from matplotlib.ticker import FuncFormatter
-import ipywidgets as widgets
+from PIL import Image
+import altair as alt
+
+st.set_page_config(layout="wide")
+
+Logo=Image.open('SIM-Logo.jpeg')
+st.image(Logo,width=500)
 
 Del=pd.read_excel('Del-Data.xlsx')
 Del.set_index('PartNo',inplace=True)
