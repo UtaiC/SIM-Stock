@@ -31,7 +31,7 @@ WIP.set_index('PartNo',inplace=True)
 MC=pd.read_excel('MC-Data.xlsx')
 MC.set_index('PartNo',inplace=True)
 
-st.header('STOCK Update and Balance')
+st.header('**STOCK Update and Balance**')
 #st.subheader('Oct-2020')
 
 WIP=WIP[['BF','BM','FG0','FG1']]
