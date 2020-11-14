@@ -163,3 +163,4 @@ st.subheader('STOCK DATA after Balnace')
 st.write(Showstock)
 st.bar_chart(Showstock)
 
+st.success('End Report')
