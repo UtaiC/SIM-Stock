@@ -160,6 +160,7 @@ FG1stock=(FGbl-Delis)
 Showstock=STbf[['BF_STOCK','BM_STOCK','FG0_STOCK','FG1_STOCK','Delivery']]
 #howstock.to_excel('STOCKUPDATE.xlsx')
 st.subheader('Ending STOCK')
+Showstock=Showstock[Showstock>0]
 st.write(Showstock)
 st.bar_chart(Showstock)
 
